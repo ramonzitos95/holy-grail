@@ -1,3 +1,6 @@
+/*!
+ * @author odahcam
+ */
 .holy-grail { display:table; table-layout:fixed; width:100%; height:100% }
 
 /*.holy-grail > .holy-header { display:table-header-group }*/ /* Firefox does not work properly with this rule style */
