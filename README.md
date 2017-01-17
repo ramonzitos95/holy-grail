@@ -1,2 +1,2 @@
 # holy-grail
-A short CSS file to help on holy-grail layout building.
+A short CSS code to help ya on holy-grail layout building.
