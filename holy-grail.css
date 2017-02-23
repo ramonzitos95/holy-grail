@@ -3,6 +3,11 @@
  */
 .holy-grail { display:table; table-layout:fixed; width:100%; height:100% }
 
+.holy-grail::before,
+.holy-grail::after {
+    display: none
+}
+
 /*.holy-grail > .holy-header { display:table-header-group }*/ /* Firefox does not work properly with this rule style */
 .holy-grail > .holy-header,
 .holy-grail > .holy-footer,
@@ -15,6 +20,6 @@
 .holy-grail > .holy-header > .holy-row,
 .holy-grail > .holy-body > .holy-row { display:table-cell; width:100% }
 
-.holy-grail.holy-align-top > .holy-body > .holy-row { vertical-align:top }
-.holy-grail.holy-align-middle > .holy-body > .holy-row { vertical-align:middle }
-.holy-grail.holy-align-bottom > .holy-body > .holy-row { vertical-align:bottom }
+.holy-align-top > .holy-body > .holy-row { vertical-align:top }
+.holy-align-middle > .holy-body > .holy-row { vertical-align:middle }
+.holy-align-bottom > .holy-body > .holy-row { vertical-align:bottom }
